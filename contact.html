@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission 01 • Contact </title>
+
+    <!-- NEW INSTALLED FONT - DM SANS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+        <!-- NAVIGATION SECTION -->
+
+        <header>
+            <div class="logo">
+                <a href="home.html" style="text-decoration: none; color: black;"><h3>Beatrice Ricardos</h3></a>
+                <!-- <img src="./images/placeholder img.webp" alt="BR logo" width="30px"> -->
+            </div>
+    
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <!-- FORM FIELD SECTION -->
+
+    <body>
+        <form action="mailto:beatricer@missionreadyhq.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend id="h1-hold"> 📪 Drop me a message! </legend>
+
+                <!-- First Input Field -->
+                <label id="h2-hold">Name:</label> 
+                <br/>
+                <textarea name="message" required placeholder="Jane Doe" style="background-color: #f8f8f8; width: 36%; height: 40px; margin-left: 4.85%; margin-bottom: 1.3%; padding: 12px 12px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 4px; font-size: 13px; resize: none;"></textarea>
+                <br/>
+
+                <!-- Second Input Field -->
+                <label id="h2-hold">Email:</label>
+                <br/>
+                <input type="email" name="email" required placeholder="janedoe@gmail.com" style="background-color: #f8f8f8; font-family: DM Sans; width: 36%; height: 40px; margin-left: 4.85%; margin-bottom: 1.3%; padding: 12px 12px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 4px; font-size: 13.85px; resize: none;"/>
+                <br/>
+            
+                <!-- Text Area -->
+                <label id="h2-hold">Message:</label> <br/>
+                <textarea name="message" placeholder="Hi! Testing contact page." style="font-size: 13px;"></textarea>
+                <br/>
+
+                <!-- Submit Button -->
+                <input type="submit" value="Submit">
+            </fieldset>
+
+            </form>   
+    
+     <!-- FOOTER SECTION -->
+
+     <footer>
+        <div>Copyright © 2024. Beatrice Ricardos.</div>
+      </footer>
+    </body>
+</html>
